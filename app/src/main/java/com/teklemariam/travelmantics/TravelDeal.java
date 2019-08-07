@@ -62,6 +62,6 @@ class TravelDeal implements Serializable {
 
     @Override
     public String toString() {
-        return title+"|"+price;
+        return title + "|" + price;
     }
 }
