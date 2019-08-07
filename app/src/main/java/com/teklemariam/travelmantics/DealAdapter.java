@@ -1,6 +1,5 @@
 package com.teklemariam.travelmantics;
 
-import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -16,9 +15,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import org.w3c.dom.Text;
-
-import java.io.Serializable;
 import java.util.ArrayList;
 
 public class DealAdapter extends RecyclerView.Adapter<DealAdapter.DealViewHolder> {
